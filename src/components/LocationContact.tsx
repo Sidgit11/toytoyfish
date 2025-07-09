@@ -29,9 +29,8 @@ const LocationContact = () => {
                     <h3 className="text-xl font-bold text-gray-800 mb-2">Address</h3>
                     <p className="text-gray-600 leading-relaxed">
                       ToyToyFish<br />
-                      Gaur City Mall<br />
-                      Noida, Uttar Pradesh<br />
-                      India
+                      2nd Floor, Gaur City Mall<br />
+                      Greater Noida, UP, India
                     </p>
                   </div>
                 </div>
@@ -56,15 +55,18 @@ const LocationContact = () => {
                   <div>
                     <h3 className="text-xl font-bold text-gray-800 mb-2">Contact</h3>
                     <div className="text-gray-600 space-y-1">
-                      <p>Phone: +91 XXXXX XXXXX</p>
-                      <p>Email: info@toytoyfish.com</p>
+                      <p>Phone: +919521766111</p>
+                      <p>Email: Connect@toytoyfish.com</p>
                     </div>
                   </div>
                 </div>
               </div>
               
               <div className="mt-8 pt-8 border-t border-gray-100">
-                <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                <Button 
+                  className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+                  onClick={() => window.open('https://g.co/kgs/RNztmt5', '_blank')}
+                >
                   <Navigation className="mr-2 h-5 w-5" />
                   Get Directions
                 </Button>
@@ -83,9 +85,8 @@ const LocationContact = () => {
                   Easy to Find!
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  We're conveniently located in Gaur City Mall, one of Noida's premier 
-                  shopping destinations. Plenty of parking available and easily accessible 
-                  by metro and bus.
+                  We're conveniently located on the 2nd floor of Gaur City Mall, Greater Noida. 
+                  Plenty of parking available and easily accessible by metro and bus.
                 </p>
                 
                 <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 shadow-lg">
@@ -93,9 +94,9 @@ const LocationContact = () => {
                     <strong>Nearby Landmarks:</strong>
                   </p>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Next to McDonald's</li>
-                    <li>• Ground Floor, Near Main Entrance</li>
-                    <li>• Opposite to Lifestyle Store</li>
+                    <li>• Next to Baggit store</li>
+                    <li>• Near fire exit</li>
+                    <li>• Close to Mr DIY Store</li>
                   </ul>
                 </div>
               </div>
