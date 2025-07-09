@@ -21,7 +21,7 @@ const Hero = () => {
                 <img 
                   src="/lovable-uploads/727535f9-15c2-463c-b8da-b34caf61e857.png" 
                   alt="ToyToyFish Logo" 
-                  className="h-20 lg:h-24 w-auto"
+                  className="h-50 lg:h-60 w-auto"
                 />
               </div>
               <p className="text-xl lg:text-2xl text-gray-600 font-medium">
