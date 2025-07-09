@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">
-              <span className="text-blue-400">Toy</span>
-              <span className="text-orange-400">Toy</span>
-              <span className="text-green-400">Fish</span>
-            </h3>
+            <img 
+              src="/lovable-uploads/691ea917-f80f-4dc0-a199-5f33b3720ea5.png" 
+              alt="ToyToyFish Logo" 
+              className="h-12 w-auto mb-4"
+            />
             <p className="text-gray-300 leading-relaxed">
               Your trusted partner in creating joyful childhood memories through 
               educational and screen-free play experiences.

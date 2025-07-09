@@ -17,11 +17,13 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-7xl font-bold text-gray-800">
-                <span className="text-blue-600">Toy</span>
-                <span className="text-orange-500">Toy</span>
-                <span className="text-green-600">Fish</span>
-              </h1>
+              <div className="flex justify-center lg:justify-start">
+                <img 
+                  src="/lovable-uploads/691ea917-f80f-4dc0-a199-5f33b3720ea5.png" 
+                  alt="ToyToyFish Logo" 
+                  className="h-20 lg:h-24 w-auto"
+                />
+              </div>
               <p className="text-xl lg:text-2xl text-gray-600 font-medium">
                 Premier Toy Store in Gaur City Mall
               </p>
