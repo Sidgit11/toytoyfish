@@ -19,7 +19,7 @@ const Hero = () => {
             <div className="space-y-4">
               <div className="flex justify-center lg:justify-start">
                 <img 
-                  src="/lovable-uploads/691ea917-f80f-4dc0-a199-5f33b3720ea5.png" 
+                  src="/lovable-uploads/727535f9-15c2-463c-b8da-b34caf61e857.png" 
                   alt="ToyToyFish Logo" 
                   className="h-20 lg:h-24 w-auto"
                 />

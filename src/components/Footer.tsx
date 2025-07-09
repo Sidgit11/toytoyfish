@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="space-y-4">
             <img 
-              src="/lovable-uploads/691ea917-f80f-4dc0-a199-5f33b3720ea5.png" 
+              src="/lovable-uploads/727535f9-15c2-463c-b8da-b34caf61e857.png" 
               alt="ToyToyFish Logo" 
               className="h-12 w-auto mb-4"
             />
@@ -18,18 +18,18 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-2 text-sm text-gray-400">
               <Heart className="h-4 w-4 text-red-400" />
-              <span>Spreading joy since 2020</span>
+              <span>Spreading joy since 2025</span>
             </div>
           </div>
           
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">Quick Links</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-orange-400 transition-colors">STEM Kits</a></li>
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Board Games</a></li>
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Action Figures</a></li>
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Role-Play Sets</a></li>
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Gift Cards</a></li>
+              <li><a href="#" className="hover:text-orange-400 transition-colors" onClick={() => window.open('https://wa.me/919521766111?text=I%20want%20to%20know%20more%20about%20STEM%20Kits%20in%20ToyToyFish', '_blank')}>STEM Kits</a></li>
+              <li><a href="#" className="hover:text-orange-400 transition-colors" onClick={() => window.open('https://wa.me/919521766111?text=I%20want%20to%20know%20more%20about%20Board%20Games%20in%20ToyToyFish', '_blank')}>Board Games</a></li>
+              <li><a href="#" className="hover:text-orange-400 transition-colors" onClick={() => window.open('https://wa.me/919521766111?text=I%20want%20to%20know%20more%20about%20Action%20Figures%20in%20ToyToyFish', '_blank')}>Action Figures</a></li>
+              <li><a href="#" className="hover:text-orange-400 transition-colors" onClick={() => window.open('https://wa.me/919521766111?text=I%20want%20to%20know%20more%20about%20Role-Play%20Sets%20in%20ToyToyFish', '_blank')}>Role-Play Sets</a></li>
+              <li><a href="#" className="hover:text-orange-400 transition-colors" onClick={() => window.open('https://wa.me/919521766111?text=I%20want%20to%20know%20more%20about%20Gift%20Cards%20in%20ToyToyFish', '_blank')}>Gift Cards</a></li>
             </ul>
           </div>
           
@@ -54,7 +54,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-12 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 ToyToyFish. All rights reserved. | Made with ❤️ for children aged 0-12
+            © 2025 ToyToyFish. All rights reserved. | Made with ❤️ for children aged 0-12
           </p>
         </div>
       </div>
